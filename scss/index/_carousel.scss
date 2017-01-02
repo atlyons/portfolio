@@ -1,0 +1,114 @@
+//Carousel
+
+/* Carousel base class */
+
+.carousel {
+  margin-bottom: 4.3rem;
+  font-weight: 100;
+  font-family: raleway;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+  @media (max-width: 480px) {
+    top: 5vh;
+  }
+  @media (max-width: 780px) {
+    top: 15vh;
+  }
+  top:30%;
+  z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item {
+  height: 100vh;
+  font-weight: 100;
+  font-family: raleway;
+}
+
+.carousel-item>img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  opacity: 0.75;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-overflow: hidden;
+}
+
+.carousel-indicators {
+  top: 50%;
+  right: 1rem;
+  bottom: auto;
+  left: auto;
+  width: 1rem;
+  margin-left: 0;
+}
+
+.carousel-indicators>li {
+  margin-bottom: .25rem;
+}
+
+.carouselOne {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35) 30%, rgba(0, 0, 0, 0.35) 30%, rgba(0, 0, 0, 0.35) 30%), url("https://source.unsplash.com/2500x1800/?computer");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.75;
+}
+
+.carouselTwo {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35) 30%, rgba(0, 0, 0, 0.35) 30%, rgba(0, 0, 0, 0.35) 30%), url("https://source.unsplash.com/2500x1800/?abstract");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.75;
+}
+
+.carouselThree {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.35) 30%, rgba(0, 0, 0, 0.35) 30%, rgba(0, 0, 0, 0.35) 30%), url("https://source.unsplash.com/2500x1800/?walls");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  opacity: 0.75;
+}
+
+.carousel-caption-box {
+  background-color: rgba(0, 0, 0, 0.80);
+  padding: 3vh;
+}
+
+.carousel-headline {
+  font-size: 5.5vh;
+  font-weight: 100;
+  font-family: raleway;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);
+}
+
+.carousel-paragraph {
+  font-size: 2.5vh;
+  font-weight: 100;
+  color: #eee;
+  font-family: raleway;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);
+}

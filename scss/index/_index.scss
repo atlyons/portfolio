@@ -1,0 +1,484 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+  overflow-x: hidden !important;
+}
+
+// removed horizontal scroll for safari web browser
+body,
+html {
+  overflow-x: hidden;
+}
+
+.collapse-one {
+  background-color: white !important;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+.marketing {
+  font-weight: 100;
+  font-family: raleway;
+}
+
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: normal;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+
+/* Thin out the marketing headings */
+
+.featurette-heading {
+  font-weight: 100;
+  font-family: raleway;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* ABOUT CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+// About section images
+.about {
+  opacity: 0.75;
+}
+
+.about-title {
+  font-size: 25px;
+  margin-top: 15px;
+  font-family: raleway;
+  font-weight: 100;
+  text-align: left;
+  color: #000;
+}
+
+.about-text {
+  font-size: 13px;
+  text-align: left;
+  color: #000;
+  font-family: raleway;
+}
+
+.about-button {
+  margin-bottom: 10px;
+}
+
+// Full width cell 
+.full-width-cell {
+  background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 60%), url("https://images.unsplash.com/photo-1474929743204-8f756140cb14?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=");
+  background-attachment: fixed !important;
+  height: 300px;
+  font-family: raleway;
+  color: #fff;
+  padding-top: 30px;
+}
+
+//pricing bars
+.pricing-footer {
+  font-size: 16px;
+  font-weight: 100;
+  font-family: raleway;
+  margin: 25px 0px 70px 0px;
+}
+
+//screenshot sections
+.screen-shot {
+  padding: 70px 25% 70px 25%;
+}
+
+.screenshot-img {
+  box-shadow: 2px 2px 15px #888888;
+  margin-bottom: 50px;
+}
+
+.screenshot-title {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.screenshot-paragraph {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+//regular text characterists
+.text {
+  font-weight: 100;
+  font-family: raleway;
+  color: #000;
+}
+
+.paragraph {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+//button characteristics
+.btn-no-radius {
+  border-radius: 0px;
+}
+
+// JUMBOTRON CONNECT WITH US SECTION
+.fa-margin {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.fa-hover:hover {
+  color: blue !important;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.section-margin {
+  margin-bottom: 50px;
+}
+
+.blockquote-border {
+  border-color: coral;
+  margin: 20px 40px 0px 40px;
+}
+
+.blockquote-border-bottom {
+  margin-bottom: 5%;
+}
+
+.shadowedPNG {
+  -webkit-filter: drop-shadow(6px 6px 10px #888888);
+  filter: drop-shadow(6px 6px 10px #888888);
+  width: 500px;
+  max-width: 500px;
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.tab-paragraph {
+  margin-bottom: 100px;
+}
+
+.about-us-tabs:hover {
+  border-width: 0px;
+  border-color: blue;
+}
+
+.nav-pills:hover {
+  color: red;
+}
+
+.embeded-video {
+  margin: 60px 0px 90px 0px;
+}
+
+.carousel-testimonials {
+  height: 350px !important;
+  color: white;
+}
+
+.carousel-testimonials-one {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 70%, rgba(0, 0, 0, 0.35) 70%, rgba(0, 0, 0, 0.65) 70%), url("https://source.unsplash.com/2500x400/?floral");
+  opacity: 0.75;
+}
+
+.carousel-testimonials-headline {
+  font-size: 4vh;
+  font-weight: 100;
+  font-family: raleway;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);
+}
+
+.carousel-testimonials-paragraph {
+  font-size: 2vh;
+  font-weight: 100;
+  color: #eee;
+  font-family: raleway;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.95);
+  margin: 0% 20% 0% 20%;
+  line-height: 3vh;
+}
+
+.carousel-testimonals-box {
+  padding: 4%;
+}
+
+.white-text {
+  color: #fff;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .14rem;
+  line-height: 2rem;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5rem;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: .2rem;
+  @media (max-width: 780px) {
+    font-size: 14px;
+  }
+  @media (max-width: 480px) {
+    font-size: 12px;
+    line-height: 1.4rem;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-weight: 200;
+    letter-spacing: .06rem;
+  }
+}
+
+.heading {
+  font-size: 6vh;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: .15rem;
+  @media (max-width: 780px) {
+    font-size: 5vh;
+    font-weight: 100;
+    letter-spacing: .10rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 3vh;
+    font-weight: 100;
+    letter-spacing: .10rem;
+  }
+}
+
+.heading2 {
+  font-size: 3vh;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 200;
+  letter-spacing: .07rem;
+  @media (max-width: 780px) {
+    font-size: 3vh;
+    font-weight: 200;
+    letter-spacing: .07rem;
+  }
+  @media (max-width: 480px) {
+    font-size: 3vh;
+    font-weight: 200;
+    letter-spacing: .07rem;
+  }
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.shadowedPNG {
+  @media (max-width: 780px) {
+    width: 100%;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+  }
+}
+
+//above the footer
+.footer-paralax {
+  background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 60%), url("https://source.unsplash.com/2500x2550/?flowers");
+  background-attachment: fixed !important;
+  height: 450px;
+  margin-top: -32px;
+  @media (max-width: 860px) {
+    height: 520px;
+  }
+  @media (max-width: 815px) {
+    height: 525px;
+  }
+  @media (max-width: 780px) {
+    height: 550px;
+  }
+  @media (max-width: 680px) {
+    height: 570px;
+  }
+  @media (max-width: 600px) {
+    height: 570px;
+  }
+  @media (max-width: 550px) {
+    height: 590px;
+  }
+  @media (max-width: 530px) {
+    height: 600px;
+  }
+  @media (max-width: 510px) {
+    height: 620px;
+  }
+  @media (max-width: 488px) {
+    height: 620px;
+  }
+  @media (max-width: 470px) {
+    height: 575px;
+  }
+  @media (max-width: 450px) {
+    height: 615px;
+  }
+}
+
+.footer-paralax-padding {
+  padding-top: 55px;
+  @media (max-width: 780px) {
+    padding-top: 0px;
+  }
+  @media (max-width: 480px) {
+    padding-top: 0px;
+  }
+}
+
+.extra-padding {
+  padding-top: 30px;
+  @media (max-width: 780px) {
+    padding-top: 15px;
+  }
+  @media (max-width: 480px) {
+    padding-top: 20px;
+  }
+}
+
+.text-padding {
+  padding: 0px 200px 0px 200px;
+  @media (max-width: 780px) {
+    padding: 0px 50px 0px 50px;
+  }
+  @media (max-width: 480px) {
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+.column-text-padding {
+  padding: 0px 10px 0px 10px;
+  @media (max-width: 780px) {
+    padding: 0px 50px 0px 50px;
+  }
+  @media (max-width: 480px) {
+    padding: 0px 20px 0px 20px;
+  }
+}
+
+.text-padding-on-mobile {
+  @media (max-width: 880px) {
+    padding: 10px 0px 0px 0px;
+  }
+  @media (max-width: 780px) {
+    padding: 25px 0px 0px 0px;
+  }
+  @media (max-width: 480px) {
+    padding: 30px 0px 0px 0px;
+  }
+}
+
+.shadowed-video {
+  -webkit-filter: drop-shadow(6px 6px 10px #888888);
+  filter: drop-shadow(6px 6px 10px #888888);
+}
+
+
+
+// .nav[aria-expanded="true"]{
+//   background-color: #42DCA3 !important;
+// }
+
+
+
+
+
+.card {
+  /* smartphones, iPhone, portrait 480x320 phones */
+  @media (min-width: 320px) {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  @media (min-width:481px) {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  @media (min-width:575px) {
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  @media (min-width:641px) {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  @media (min-width:961px) {
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* big landscape tablets, laptops, and desktops */
+  @media (min-width:1025px) {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* hi-res laptops and desktops */
+  @media (min-width:1281px) {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

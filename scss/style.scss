@@ -1,0 +1,13 @@
+//INDEX
+@import "vendor/bootstrap";
+@import "index/index";
+@import "index/buttons";
+@import "index/carousel";
+@import "index/header";
+@import "index/_footer";
+
+
+// IMPORTING MOBILESCSS RESPONSIVE CLASSES
+// TO CHANGE ANY OF THESE VALUES SIMPLY ALTER THE _KEY_VALUES.SCSS FILE
+@import "index/mobileCSS/_mobile";
+

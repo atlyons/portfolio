@@ -1,0 +1,32 @@
+.hr {
+  border-top: .15vw solid;
+  padding: 0px 0px 1rem 0px;
+  /* smartphones, iPhone, portrait 480x320 phones */
+  @media (min-width: 320px) {
+    width: $hr-xs;
+  }
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  @media (min-width:481px) {
+    width: $hr-sm;
+  }
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  @media (min-width:575px) {
+    width: $hr-sm-md;
+  }
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  @media (min-width:641px) {
+    width: $hr-md;
+  }
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+  @media (min-width:961px) {
+    width: $hr-md-lg;
+  }
+  /* big landscape tablets, laptops, and desktops */
+  @media (min-width:1025px) {
+    width: $hr-lg;
+  }
+  /* hi-res laptops and desktops */
+  @media (min-width:1281px) {
+    width: $hr-xl;
+  }
+}
