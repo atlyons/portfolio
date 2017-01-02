@@ -1,4 +1,4 @@
-Check out a [LIVE DEMO](https://atlyons.github.io/pestle/) of <b>Pestle</b>.
+||Check out a [LIVE DEMO](https://atlyons.github.io/pestle/) of <b>Pestle</b>.||
 
 ## Welcome to Pestle a responsive lightweight single page website template.
 A mobile first website template constructed using the popular Bootstrap front end framework.
