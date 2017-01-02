@@ -1,4 +1,6 @@
-<div style="text-align:center">Check out a [LIVE DEMO](https://atlyons.github.io/pestle/) of <b>Pestle</b>.</div>
+<p align="center">
+Check out a [LIVE DEMO](https://atlyons.github.io/pestle/) of <b>Pestle</b>.
+</p>
 
 ## Welcome to Pestle a responsive lightweight single page website template.
 A mobile first website template constructed using the popular Bootstrap front end framework.
