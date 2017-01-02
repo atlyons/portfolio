@@ -30,5 +30,5 @@ To change an elements color simply add the following class:
 - - <b>p1</b> indicates which pallet the color is included within.
 
 ### UNSPLASH IMAGES
-All of the images provided within this theme have been provided by the Unsplash API.
+All of the images used within this theme have been provided by the Unsplash API.
 - Please feel free to head on over to [Unsplash](https://source.unsplash.com/) to use their amazing images in your next project.
