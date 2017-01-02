@@ -15,11 +15,27 @@
 		"oAP": "\/.nojekyll",
 		"oF": 0
 		},
+	"\/build\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
 	"\/colors.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/colors.html",
 		"oF": 0
+		},
+	"\/css\/style-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/style-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/css\/style.css": {
 		"aP": 0,
@@ -156,6 +172,15 @@
 		"oAP": "\/js\/dist\/dropdown.js.map",
 		"oF": 0
 		},
+	"\/js\/dist\/modal-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/dist\/modal-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/dist\/modal.js": {
 		"ft": 64,
 		"mi": 1,
@@ -230,6 +255,15 @@
 		"oA": 2,
 		"oAP": "\/js\/dist\/tooltip.js.map",
 		"oF": 0
+		},
+	"\/js\/dist\/util-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/dist\/util-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/dist\/util.js": {
 		"ft": 64,
@@ -405,6 +439,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/tests\/unit\/carousel-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/tests\/unit\/carousel-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/tests\/unit\/carousel.js": {
 		"ft": 64,
 		"mi": 1,
@@ -423,6 +466,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/js\/tests\/unit\/dropdown-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/tests\/unit\/dropdown-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/js\/tests\/unit\/dropdown.js": {
 		"ft": 64,
 		"mi": 1,
@@ -437,6 +489,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/tests\/unit\/modal-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/tests\/unit\/phantom-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/tests\/unit\/phantom-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -494,6 +555,16 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/js\/tests\/vendor\/qunit-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/js\/tests\/vendor\/qunit-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/js\/tests\/vendor\/qunit.css": {
 		"aP": 0,
@@ -582,6 +653,24 @@
 		"oA": 2,
 		"oAP": "\/js\/tests\/visual\/tooltip.html",
 		"oF": 0
+		},
+	"\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/scss\/.scss-lint.yml": {
 		"ft": 8192,
