@@ -10,7 +10,7 @@ Please feel free to use this use this template for anything you like.
 
 ## INTEGRATED COLOR PALLETS
 Each of the colors on the following page are built within the theme.
-<center>[Supported Color Pallets](https://atlyons.github.io/pestle/colors.html)</center>
+<center>Supported [Color Pallets](https://atlyons.github.io/pestle/colors.html)</center>
 
 
 To change an elements background color simply add the following class:
