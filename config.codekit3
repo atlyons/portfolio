@@ -654,6 +654,12 @@
 		"oAP": "\/js\/tests\/visual\/tooltip.html",
 		"oF": 0
 		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,

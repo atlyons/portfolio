@@ -14,10 +14,10 @@ Each of the colors on the following page are built within the theme.
 
 To change an elements background color simply add the following class:
 - bk-p1-blue
--- bk stands for 'background'.
--- p1 indicates which pallet the color is included within.
+- - bk stands for 'background'.
+- - p1 indicates which pallet the color is included within.
 
 To change an elements color simply add the following class:
-- clr-p1-blue
--- clr stands for 'color'.
--- p1 indicates which pallet the color is included within.
+- *clr-p1-blue*
+- - clr stands for 'color'.
+- - p1 indicates which pallet the color is included within.
