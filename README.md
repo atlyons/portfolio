@@ -1,4 +1,4 @@
-Check out a LIVE DEMO of <b>Pestle</b>: httpd://atlyons.github.io/pestle/
+Check out a LIVE DEMO of <b>Pestle</b>: https://atlyons.github.io/pestle/
 
 ##Pestle is a responsive lightweight single page website template.
 
