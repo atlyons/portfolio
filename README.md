@@ -6,3 +6,14 @@ This template was constructed using Bootstrap.
 - 
 
 Please feel free to use this use this template for anything you like. 
+
+
+## INTEGRATED COLOR PALLETS - https://atlyons.github.io/pestle/colors.html
+Each of the colors on the following page are built within the theme.
+
+
+To change an elements background color simply add the following class:
+- bk-p1-blue
+
+To change an elements color simply add the following class:
+- clr-p1-blue
