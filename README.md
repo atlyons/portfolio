@@ -13,6 +13,8 @@ This template was constructed using Bootstrap.
 - If you have any questions regarding Bootstrap please view the [Bootstrap documentation](https://v4-alpha.getbootstrap.com/).
 
 
+
+
 ### INTEGRATED COLOR PALLETS
 Each of the colors on the following page are built within the theme.
 Supported [Color Pallets](https://atlyons.github.io/pestle/colors.html).
