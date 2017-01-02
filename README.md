@@ -1,6 +1,6 @@
 Check out a [LIVE DEMO](https://atlyons.github.io/pestle/) of <b>Pestle</b>.
 
-<img src ="img/iPhone6.png" />
+<img src ="img/iPhone6.png" width="100px;" />
 
 ## Welcome to Pestle a responsive lightweight single page website template.
 A mobile first website template constructed using the popular Bootstrap front end framework.
