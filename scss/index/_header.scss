@@ -73,9 +73,7 @@
     color: white;
     background-color: transparent;
     position: fixed;
-
-
-padding-right:40px;
+    padding-right:40px;
 
   }
   /* hi-res laptops and desktops */
@@ -83,21 +81,9 @@ padding-right:40px;
     color: white;
     background-color: transparent;
     position: fixed;
-
     padding-right:40px;
-
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .navbar-light .navbar-toggler{
@@ -219,7 +205,8 @@ nav.navbar.transparent {
 ul.nav a:hover { color: red !important; }
 
 .navbar-brand:focus, .navbar-brand:hover{ 
-    color: red !important; 
+    color: red !important;
+    text-transform: uppercase;
 }
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-toggler:focus, .navbar-light .navbar-toggler:hover{

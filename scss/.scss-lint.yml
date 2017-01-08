@@ -4,7 +4,7 @@ scss_files:
   - "docs/assets/scss/**/*.scss"
 
 exclude:
-  - "scss/_normalize.scss"
+  - "css/_normalize.scss"
 
 plugin_directories: ['.scss-linters']
 

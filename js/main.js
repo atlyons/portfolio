@@ -14,6 +14,7 @@ $(document).ready(function(){
                     // hamburger button icon color after scrolling
                     $(".navbar-toggler").css({"border-color":"black"});
                     $(".navbar-brand").css('color', 'black');
+                    $(".navbar-brand").css('font-weight', '400');
                 } else {
                     // header background color before scrolling
                     $("nav").css('background-color', 'transparent');
@@ -25,6 +26,7 @@ $(document).ready(function(){
                     // hamburger button outline color before scrolling
                     $(".navbar-toggler").css({"border-color":"white"});
                     $(".navbar-brand").css('color', 'white');
+                    $(".navbar-brand").css('font-weight', '100');
                 }
             });
         });
