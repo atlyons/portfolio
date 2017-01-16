@@ -174,8 +174,12 @@ html {
   margin-top: 20px;
 }
 
+.fa-hover{
+  color:white !important;
+}
+
 .fa-hover:hover {
-  color: blue !important;
+  color: lightgrey !important;
 }
 
 .img-circle {
@@ -262,57 +266,7 @@ html {
   line-height: 2rem;
 }
 
-.paragraph {
-  font-size: 17px;
-  line-height: 1.5rem;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-weight: 200;
-  letter-spacing: .05rem;
-  @media (max-width: 780px) {
-    font-size: 14px;
-  }
-  @media (max-width: 480px) {
-    font-size: 12px;
-    line-height: 1.4rem;
-    font-family: "Helvetica Neue", Arial, sans-serif;
-    font-weight: 200;
-    letter-spacing: .06rem;
-  }
-}
 
-.heading {
-  font-size: 6vh;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-weight: 100;
-  letter-spacing: .15rem;
-  @media (max-width: 780px) {
-    font-size: 5vh;
-    font-weight: 100;
-    letter-spacing: .10rem;
-  }
-  @media (max-width: 480px) {
-    font-size: 3vh;
-    font-weight: 100;
-    letter-spacing: .10rem;
-  }
-}
-
-.heading2 {
-  font-size: 4vh;
-  font-family: "Helvetica Neue", Arial, sans-serif;
-  font-weight: 200;
-  letter-spacing: .17rem;
-  @media (max-width: 780px) {
-    font-size: 3vh;
-    font-weight: 200;
-    letter-spacing: .07rem;
-  }
-  @media (max-width: 480px) {
-    font-size: 3vh;
-    font-weight: 200;
-    letter-spacing: .07rem;
-  }
-}
 
 .white {
   color: white;
@@ -336,7 +290,11 @@ html {
   background-image: linear-gradient(to bottom, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 80%, rgba(57, 88, 125, 0.58) 60%), url("https://source.unsplash.com/1500x1250/?forest");
   background-attachment: fixed !important;
   height: 450px;
-  margin-top: -32px;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-overflow: hidden;
   @media (max-width: 860px) {
     height: 520px;
   }
@@ -484,3 +442,15 @@ html {
   }
 }
 
+
+
+.thin{
+  font-weight:100;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: 2px;
+}
+
+.medium{
+  font-weight:400;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}

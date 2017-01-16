@@ -14,7 +14,7 @@ $(document).ready(function(){
                     // hamburger button icon color after scrolling
                     $(".navbar-toggler").css({"border-color":"black"});
                     $(".navbar-brand").css('color', 'black');
-                    $(".navbar-brand").css('font-weight', '400');
+                    $(".navbar-brand").css('font-weight', '700');
                 } else {
                     // header background color before scrolling
                     $("nav").css('background-color', 'transparent');
@@ -32,31 +32,6 @@ $(document).ready(function(){
         });
 
 
+$('body').css('overflow', 'hidden');
 
-
-//  // If the aria-expanded is false, hide the group and display the collapsed state image
-//       if ($(this).attr('aria-expanded') === 'true') {
-//          $(".navbar-toggler").css('background-color', 'red');
-//       }
-//       else {
-//          $(".navbar-toggler").css('background-color', 'blue');
-//       }
-
-    // if ($(this).attr('aria-expanded') === 'false') {
-    //      $(".navbar-toggler").css('background-color', 'transparent');
-    //   }
-    //   else {
-    //      $(".navbar-toggler").css('background-color', 'red');
-    //   }
-
-// $('navbar-toggler[aria-expanded="true"]').css('background-color','#42DCA3');
-
-
-// $(".navbar active").attr("aria-expanded","false").css('background-color', 'green');
-// $(".navbar active").attr("aria-expanded","true").css('background-color', 'red');
-
-// $('#history').tab('show')
-// $('#approach').tab('show')
-// $('#culture').tab('show')
-// $('#method').tab('show')
 

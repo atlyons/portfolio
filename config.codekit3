@@ -15,10 +15,32 @@
 		"oAP": "\/.nojekyll",
 		"oF": 0
 		},
+	"\/.vscode\/launch.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.vscode\/launch-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/.vscode\/tasks.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/.vscode\/tasks-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/build\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.gitignore",
+		"oF": 0
+		},
+	"\/case_study.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/case_study.html",
 		"oF": 0
 		},
 	"\/colors.html": {
@@ -798,6 +820,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/portfolio.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
@@ -848,6 +876,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/index\/_case_study.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/index\/_case_study.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/index\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/index\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/index\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -883,6 +937,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/scss\/index\/_index.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/scss\/index\/_portfolio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/index\/_portfolio.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
