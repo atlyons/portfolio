@@ -122,7 +122,6 @@ html {
   padding-top: 30px;
 }
 
-
 //pricing bars
 .pricing-footer {
   font-size: 16px;
@@ -174,8 +173,8 @@ html {
   margin-top: 20px;
 }
 
-.fa-hover{
-  color:white !important;
+.fa-hover {
+  color: white !important;
 }
 
 .fa-hover:hover {
@@ -265,8 +264,6 @@ html {
   letter-spacing: .14rem;
   line-height: 2rem;
 }
-
-
 
 .white {
   color: white;
@@ -387,16 +384,9 @@ html {
   filter: drop-shadow(6px 6px 10px #888888);
 }
 
-
-
 // .nav[aria-expanded="true"]{
 //   background-color: #42DCA3 !important;
 // }
-
-
-
-
-
 .card {
   /* smartphones, iPhone, portrait 480x320 phones */
   @media (min-width: 320px) {
@@ -442,15 +432,21 @@ html {
   }
 }
 
-
-
-.thin{
-  font-weight:100;
+.thin {
+  font-weight: 100;
   font-family: "Helvetica Neue", Arial, sans-serif;
   letter-spacing: 2px;
 }
 
-.medium{
-  font-weight:400;
+.medium {
+  font-weight: 400;
   font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.center-vertically {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
